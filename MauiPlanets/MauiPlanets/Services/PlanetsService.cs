@@ -12,7 +12,13 @@ namespace MauiPlanets.Services
                 Name = "Mercury",
                 Subtitle = "The smallest planet",
                 HeroImage = "mercury.png",
-                Description = "Mercury is the first planet from the Sun and the smallest in the Solar System. In English, it is named after the ancient Roman god Mercurius (Mercury), god of commerce and communication, and the messenger of the gods. Mercury is classified as a terrestrial planet, with roughly the same surface gravity as Mars. The surface of Mercury is heavily cratered, as a result of countless impact events that have accumulated over billions of years.",
+                Description = "Mercury is the first planet from the Sun and the smallest " +
+                "in the Solar System. In English, it is named after the ancient Roman god " +
+                "Mercurius (Mercury), god of commerce and communication, and the messenger " +
+                "of the gods. Mercury is classified as a terrestrial planet, with roughly " +
+                "the same surface gravity as Mars. The surface of Mercury is heavily " +
+                "cratered, as a result of countless impact events that have accumulated " +
+                "over billions of years.",
                 AccentColorStart = Color.FromArgb("#353535"),
                 AccentColorEnd = Color.FromArgb("#8d9098"),
                 Images = new()
@@ -27,7 +33,13 @@ namespace MauiPlanets.Services
                 Name = "Venus",
                 Subtitle = "The pressure cooker",
                 HeroImage = "venus.png",
-                Description = "Venus is the second planet from the Sun. It is a terrestrial planet and is the closest in mass and size to its orbital neighbour Earth. Venus has by far the densest atmosphere of the terrestrial planets, composed mostly of carbon dioxide with a thick, global sulfuric acid cloud cover. At the surface it has a mean temperature of 737 K (464 °C; 867 °F) and a pressure 92 times that of Earth's at sea level.",
+                Description = "Venus is the second planet from the Sun. It is a terrestrial " +
+                "planet and is the closest in mass and size to its orbital neighbour" +
+                " Earth. Venus has by far the densest atmosphere of the terrestrial " +
+                "planets, composed mostly of carbon dioxide with a thick, global " +
+                "sulfuric acid cloud cover. At the surface it has a mean temperature " +
+                "of 737 K (464 °C; 867 °F) and a pressure 92 times that of Earth's " +
+                "at sea level.",
                 AccentColorStart = Color.FromArgb("#a6393b"),
                 AccentColorEnd = Color.FromArgb("#d17f21"),
                 Images = new()
@@ -43,7 +55,11 @@ namespace MauiPlanets.Services
                 Name = "Earth",
                 Subtitle = "The cradle of life",
                 HeroImage = "earth.png",
-                Description = "The Earth is the only planet known where life exists. Almost 1.5 million species of animals and plants have been discovered so far, and many more have yet to be found. While other planets may have small amounts of ice or steam, the Earth is 2/3 water. Earth has perfect conditions for a breathable atmosphere. ",
+                Description = "The Earth is the only planet known where life " +
+                "exists. Almost 1.5 million species of animals and plants have been " +
+                "discovered so far, and many more have yet to be found. While " +
+                "other planets may have small amounts of ice or steam, the Earth " +
+                "is 2/3 water. Earth has perfect conditions for a breathable atmosphere. ",
                 AccentColorStart = Color.FromArgb("#0e3d68"),
                 AccentColorEnd = Color.FromArgb("#2e97c7"),
                 Images = new()
