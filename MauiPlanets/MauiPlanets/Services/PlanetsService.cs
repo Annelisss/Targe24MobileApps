@@ -170,6 +170,56 @@ namespace MauiPlanets.Services
                     "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                 }
             },
+                        new()
+            {
+                Name = "Pluto",
+                Subtitle = "Dwarf planet (Kuiper belt)",
+                HeroImage = "pluto.png",
+                Description = "Pluto is a dwarf planet in the Kuiper Belt, a ring of bodies beyond Neptune. It was once considered the ninth planet in our solar system.",
+                AccentColorStart = Color.FromArgb("#1E3A8A"),
+                AccentColorEnd = Color.FromArgb("#0EA5E9"),
+                Images = new() { "pluto.svg" }
+            },
+            new()
+            {
+                Name = "Ceres",
+                Subtitle = "Dwarf planet (Asteroid belt)",
+                HeroImage = "ceres.png",
+                Description = "Ceres is the only dwarf planet located in the asteroid belt between Mars and Jupiter. It is the largest object in that region.",
+                AccentColorStart = Color.FromArgb("#334155"),
+                AccentColorEnd = Color.FromArgb("#64748B"),
+                Images = new() { "ceres.svg" }
+            },
+            new()
+            {
+                Name = "Haumea",
+                Subtitle = "Dwarf planet (Kuiper belt)",
+                HeroImage = "haumea.png",
+                Description = "Haumea is an elongated dwarf planet known for its rapid rotation and ring system. It resides in the Kuiper belt.",
+                AccentColorStart = Color.FromArgb("#4C1D95"),
+                AccentColorEnd = Color.FromArgb("#A855F7"),
+                Images = new() { "haumea.svg" }
+            },
+            new()
+            {
+                Name = "Makemake",
+                Subtitle = "Dwarf planet (Kuiper belt)",
+                HeroImage = "makemake.png",
+                Description = "Makemake is a bright, reddish dwarf planet discovered in 2005. It is one of the largest known objects in the Kuiper belt.",
+                AccentColorStart = Color.FromArgb("#7C2D12"),
+                AccentColorEnd = Color.FromArgb("#F97316"),
+                Images = new() { "makemake.svg" }
+            },
+            new()
+            {
+                Name = "Eris",
+                Subtitle = "Dwarf planet (Scattered disk)",
+                HeroImage = "eris.png",
+                Description = "Eris is one of the most massive dwarf planets, slightly smaller than Pluto, located in the scattered disk region beyond Neptune.",
+                AccentColorStart = Color.FromArgb("#0F172A"),
+                AccentColorEnd = Color.FromArgb("#475569"),
+                Images = new() { "eris.svg" }
+            },
         };
 
 

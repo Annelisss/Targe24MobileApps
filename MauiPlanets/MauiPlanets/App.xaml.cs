@@ -31,7 +31,7 @@ namespace MauiPlanets
             #endif
             });
 
-            MainPage = new StartPage();
+            MainPage = new NavigationPage(new StartPage());
         }
 
         //protected override Window CreateWindow(IActivationState? activationState)
